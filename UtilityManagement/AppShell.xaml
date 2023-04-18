@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="UtilityManagement.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:appartment="clr-namespace:UtilityManagement.Appartment"
+    xmlns:local="clr-namespace:UtilityManagement"
+    Shell.FlyoutBehavior="Disabled">
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Appartment"
+             Icon="appartment.png">
+            <ShellContent Title="Appartment1"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate appartment:Appartment1}" />
+            <ShellContent Title="Appartment2"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate appartment:Appartment2}" />
+        </Tab>
+
+        <Tab Title="Utility"
+             Icon="utility.png">
+            <ShellContent ContentTemplate="{DataTemplate local:UtilityPage}" />
+        </Tab>
+
+        <Tab Title="Setting"
+             Icon="setting.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SettingPage}" />
+        </Tab>
+    </FlyoutItem>
+</Shell>
