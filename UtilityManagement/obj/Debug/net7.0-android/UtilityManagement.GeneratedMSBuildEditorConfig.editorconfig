@@ -20,17 +20,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment1.xaml]
+[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment101.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment1.xaml
-build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment1.xaml
-build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment1.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment101.xaml
+build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment101.xaml
+build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment101.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment2.xaml]
+[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment102.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment2.xaml
-build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment2.xaml
-build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment2.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment102.xaml
+build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment102.xaml
+build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment102.xaml
 
 [C:/OOPProject/OOPProject/UtilityManagement/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

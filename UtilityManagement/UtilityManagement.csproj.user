@@ -6,10 +6,10 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Appartment\Appartment1.xaml">
+    <MauiXaml Update="Appartment\Appartment101.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Appartment\Appartment2.xaml">
+    <MauiXaml Update="Appartment\Appartment102.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="SettingPage.xaml">
