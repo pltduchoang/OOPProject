@@ -15,7 +15,13 @@
     <MauiXaml Update="SettingPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Utility\Utility101.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="UtilityPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Utility\Utility102.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

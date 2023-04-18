@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UtilityManagement.Appartment.Appartment1"
+             x:Class="UtilityManagement.Appartment.Appartment101"
              Title="Appartment Overview">
     
     <ScrollView>
@@ -46,7 +46,8 @@
                     Grid.Row="1" 
                     Grid.Column="2" 
                     HeightRequest="50" 
-                    WidthRequest="300"/>
+                    WidthRequest="300"
+                    HorizontalOptions="Center"/>
                 
                 <Label 
                     Text="Move-In Date"

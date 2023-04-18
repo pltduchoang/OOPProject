@@ -1,8 +1,8 @@
 namespace UtilityManagement.Appartment;
 
-public partial class Appartment2 : ContentPage
+public partial class Appartment102 : ContentPage
 {
-	public Appartment2()
+	public Appartment102()
 	{
 		InitializeComponent();
 	}
