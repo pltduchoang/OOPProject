@@ -54,16 +54,31 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Appartment\Appartment1.xaml">
+	  <Compile Update="Appartment\Appartment101.xaml.cs">
+	    <DependentUpon>Appartment101.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Appartment\Appartment102.xaml.cs">
+	    <DependentUpon>Appartment102.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Appartment\Appartment101.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Appartment\Appartment2.xaml">
+	  <MauiXaml Update="Appartment\Appartment102.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SettingPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Utility\Utility101.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="UtilityPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Utility\Utility102.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

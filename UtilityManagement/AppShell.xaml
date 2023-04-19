@@ -4,23 +4,29 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:appartment="clr-namespace:UtilityManagement.Appartment"
+    xmlns:utility="clr-namespace:UtilityManagement.Utility"
     xmlns:local="clr-namespace:UtilityManagement"
     Shell.FlyoutBehavior="Disabled">
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title="Appartment"
              Icon="appartment.png">
-            <ShellContent Title="Appartment1"
+            <ShellContent Title="Appartment101"
                           Icon="appartment.png"
-                          ContentTemplate="{DataTemplate appartment:Appartment1}" />
-            <ShellContent Title="Appartment2"
+                          ContentTemplate="{DataTemplate appartment:Appartment101}" />
+            <ShellContent Title="Appartment102"
                           Icon="appartment.png"
-                          ContentTemplate="{DataTemplate appartment:Appartment2}" />
+                          ContentTemplate="{DataTemplate appartment:Appartment102}" />
         </Tab>
 
         <Tab Title="Utility"
              Icon="utility.png">
-            <ShellContent ContentTemplate="{DataTemplate local:UtilityPage}" />
+            <ShellContent Title="Appartment1"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility101}" />
+            <ShellContent Title="Appartment2"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility102}" />
         </Tab>
 
         <Tab Title="Setting"
