@@ -17,6 +17,15 @@
             <ShellContent Title="Appartment102"
                           Icon="appartment.png"
                           ContentTemplate="{DataTemplate appartment:Appartment102}" />
+            <ShellContent Title="Appartment103"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate appartment:Appartment103}" />
+            <ShellContent Title="Appartment104"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate appartment:Appartment104}" />
+            <ShellContent Title="Appartment105"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate appartment:Appartment105}" />
         </Tab>
 
         <Tab Title="Utility"

@@ -1,4 +1,4 @@
-namespace UtilityManagement;
+namespace UtilityManagement.Utility;
 
 public partial class Utility101 : ContentPage
 {

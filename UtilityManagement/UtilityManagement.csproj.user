@@ -12,13 +12,22 @@
     <MauiXaml Update="Appartment\Appartment102.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Appartment\Appartment103.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Appartment\Appartment104.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Appartment\Appartment105.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="SettingPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Utility\Utility101.xaml">
+    <MauiXaml Update="UtilityPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="UtilityPage.xaml">
+    <MauiXaml Update="Utility\Utility101.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Utility\Utility102.xaml">
