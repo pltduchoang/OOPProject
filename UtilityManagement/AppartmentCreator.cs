@@ -14,14 +14,14 @@ namespace UtilityManagement
         public string beganDate;
         public double deposite;
         public int phone;
-        public int rent;
-        public int waterLaundry;
+        public double rent;
+        public double waterLaundry;
         public int lastPower;
         public int power;
 
-        List<AppartmentCreator> appartmentList = new List<AppartmentCreator>();
+        
 
-        public AppartmentCreator(int unitNum, string fName, string lName, string beganDate, int deposite, int phone, int rent, int waterLaundry, int lastPower, int power)
+        public AppartmentCreator(int unitNum, string fName, string lName, string beganDate, double deposite, int phone, double rent, double waterLaundry, int lastPower, int power)
         {
             this.unitNum = unitNum;
             this.fName = fName;
