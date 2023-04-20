@@ -45,6 +45,24 @@
             <ShellContent Title="Appartment2"
                           Icon="appartment.png"
                           ContentTemplate="{DataTemplate utility:Utility102}" />
+            <ShellContent Title="Appartment3"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility103}" />
+            <ShellContent Title="Appartment4"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility104}" />
+            <ShellContent Title="Appartment5"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility105}" />
+            <ShellContent Title="Appartment6"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility106}" />
+            <ShellContent Title="Appartment7"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility107}" />
+            <ShellContent Title="Appartment8"
+                          Icon="appartment.png"
+                          ContentTemplate="{DataTemplate utility:Utility108}" />
         </Tab>
 
         <Tab Title="Setting"
