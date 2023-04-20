@@ -17,5 +17,8 @@ public partial class Appartment101 : ContentPage
         }
         AppartmentCreator app = tempList[index];
         this.TenantName.Text = ($"{app.fName} {app.lName}");
+        this.MoveInDate.Text = app.beganDate.ToString();
+        this.PhoneNumber.Text = app.phone.ToString();
+        this.Deposit.Text = app.deposite.ToString();
     }
 }

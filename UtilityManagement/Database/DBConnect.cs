@@ -20,6 +20,8 @@ namespace UtilityManagement.Database
         public DBConnect()
         {
             Initialize();
+
+            OpenConnection();
         }
         //Initialize values
         private void Initialize()
@@ -77,7 +79,7 @@ namespace UtilityManagement.Database
         //Select statement
         public  List<AppartmentCreator> DataTenent()
         {
-            string query = "SELECT * FROM tenant";
+            string query = "SELECT * FROM appartmentunits";
 
             //Create a list to store the result
             //List<string>[] tenantList = new List<string>[6];
@@ -104,10 +106,10 @@ namespace UtilityManagement.Database
                 int unitNum = dataReader.GetInt32(0);
                 string fName = dataReader.GetString(1);
                 string lName = dataReader.GetString(2);
-                string beganDate = dataReader.GetString(3);
+                DateTime beganDate = dataReader.GetDateTime(3);
                 double deposite = dataReader.GetDouble(4);
                 string phone = dataReader.GetString(5);
-                double rent = dataReader.GetInt32(6);
+                double rent = dataReader.GetDouble(6);
                 double waterLaundry = dataReader.GetDouble(7);
                 int lastPower = dataReader.GetInt32(8);
                 int power = dataReader.GetInt32(9);
