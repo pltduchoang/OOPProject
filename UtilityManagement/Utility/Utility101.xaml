@@ -142,15 +142,16 @@
             <!--Row 5 Right - Generate message button-->
             <Button 
                 x:Name="GenerateSMS" 
-                Text="Generate SMS"
+                Text="Calculate And Generate SMS"
                 HeightRequest="50"
                 WidthRequest="300"
                 HorizontalOptions="Center"
                 Grid.Row="5" 
-                Grid.Column="3"/>
+                Grid.Column="3"
+                Clicked="Calculation"/>
             
             <!--SMS Generate Box-->
-            <Entry
+            <Label
                 x:Name="SmS"
                 HeightRequest="400" 
                 WidthRequest="500"
