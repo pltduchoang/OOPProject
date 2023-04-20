@@ -50,6 +50,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartme
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment105.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment105.xaml
 
+[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment106.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment106.xaml
+build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment106.xaml
+build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment106.xaml
+
+[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment107.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment107.xaml
+build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment107.xaml
+build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment107.xaml
+
+[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment108.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment108.xaml
+build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment108.xaml
+build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment108.xaml
+
 [C:/OOPProject/OOPProject/UtilityManagement/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.AppShell.xaml
