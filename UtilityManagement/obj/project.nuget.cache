@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "37bYiC9Izojpaos2MYoI4ja5ytUdb+r/5WzDRc/9BjwGW3SHzy0gZx/dqaa9XJheZT3xTs1bjBA+Kcp/WtgKuQ==",
+  "dgSpecHash": "caqJ4uEL9z5g7PW8U0noC6IYRiOy4xDf2FW4xIJpSxWT7nl1Zhf8YWJAIt83w5uAfq+6I2uW5/dS+GvaqQKXZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\emagt\\OneDrive\\Desktop\\opp gfghvj\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\emagt\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.52\\microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512",
     "C:\\Users\\emagt\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\emagt\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
+    "C:\\Users\\emagt\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
     "C:\\Users\\emagt\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\emagt\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\emagt\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
