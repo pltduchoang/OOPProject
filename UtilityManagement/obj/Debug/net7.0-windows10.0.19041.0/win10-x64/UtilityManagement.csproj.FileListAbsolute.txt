@@ -997,3 +997,4 @@ C:\Users\Mr. Edward F Magtoto\Desktop\Appliances\OOPProject\UtilityManagement\ob
 C:\Users\Mr. Edward F Magtoto\Desktop\Appliances\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Mr. Edward F Magtoto\Desktop\Appliances\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\OOPProject\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.523.17405.dll
+C:\OOPProject\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MySqlConnector.dll

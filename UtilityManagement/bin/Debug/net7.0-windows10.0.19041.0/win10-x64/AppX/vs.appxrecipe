@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\OOPProject\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-20T20:29:15.356</Modified>
+      <Modified>2023-04-20T21:34:14.709</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\OOPProject\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-20T20:27:47.470</Modified>
+      <Modified>2023-04-20T21:34:14.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UtilityManagement.runtimeconfig.json">
       <PackagePath>UtilityManagement.runtimeconfig.json</PackagePath>
-      <Modified>2023-04-20T20:12:57.711</Modified>
+      <Modified>2023-04-20T21:34:14.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UtilityManagement.dll">
       <PackagePath>UtilityManagement.dll</PackagePath>
-      <Modified>2023-04-20T20:29:13.807</Modified>
+      <Modified>2023-04-20T21:34:12.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UtilityManagement.exe</PackagePath>
-      <Modified>2023-04-20T20:29:13.826</Modified>
+      <Modified>2023-04-20T21:34:12.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -918,6 +918,10 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\mysqlconnector\2.2.5\lib\net7.0\MySqlConnector.dll">
+      <PackagePath>MySqlConnector.dll</PackagePath>
+      <Modified>2023-01-01T21:32:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-10-04T20:41:34.000</Modified>
@@ -928,7 +932,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\UtilityManagement.deps.json">
       <PackagePath>UtilityManagement.deps.json</PackagePath>
-      <Modified>2023-04-20T20:29:15.136</Modified>
+      <Modified>2023-04-20T21:34:14.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.81\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

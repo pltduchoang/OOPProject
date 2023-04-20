@@ -106,7 +106,7 @@ namespace UtilityManagement.Database
                 string lName = dataReader.GetString(2);
                 string beganDate = dataReader.GetString(3);
                 double deposite = dataReader.GetDouble(4);
-                int phone = dataReader.GetInt32(5);
+                string phone = dataReader.GetString(5);
                 double rent = dataReader.GetInt32(6);
                 double waterLaundry = dataReader.GetDouble(7);
                 int lastPower = dataReader.GetInt32(8);

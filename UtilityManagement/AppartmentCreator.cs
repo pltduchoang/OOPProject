@@ -13,7 +13,7 @@ namespace UtilityManagement
         public string lName;
         public string beganDate;
         public double deposite;
-        public int phone;
+        public string phone;
         public double rent;
         public double waterLaundry;
         public int lastPower;
@@ -21,7 +21,7 @@ namespace UtilityManagement
 
         
 
-        public AppartmentCreator(int unitNum, string fName, string lName, string beganDate, double deposite, int phone, double rent, double waterLaundry, int lastPower, int power)
+        public AppartmentCreator(int unitNum, string fName, string lName, string beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
         {
             this.unitNum = unitNum;
             this.fName = fName;
