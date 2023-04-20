@@ -11,12 +11,11 @@ public partial class Appartment101 : ContentPage
         List<AppartmentCreator> tempList = dBConnect.DataTenent();
 
         int index = 0;
-        while (tempList[i].unitNum != 101)
+        while (tempList[index].unitNum != 101 && index < tempList.Count())
         {
             index++;
         }
         AppartmentCreator app = tempList[index];
         this.TenantName.Text = ($"{app.fName} {app.lName}");
-
     }
 }
