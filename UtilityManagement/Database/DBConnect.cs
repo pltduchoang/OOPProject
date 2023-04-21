@@ -119,18 +119,7 @@ namespace UtilityManagement.Database
 
         }
 
-        public void Delete()
-        {
-            string query = "DELETE FROM tableinfo WHERE name='John Smith'";
-
-            if (this.OpenConnection() == true)
-            {
-                MySqlCommand cmd = new MySqlCommand(query, connection);
-                cmd.ExecuteNonQuery();
-                this.CloseConnection();
-            }
-        }
-        public void Update()
+        public void Update(int unitNum, string fName, string lName, DateTime beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
         {
             //Open connection
             if (this.OpenConnection() == true)
@@ -138,10 +127,11 @@ namespace UtilityManagement.Database
                 //create mysql command
                 MySqlCommand cmd = new MySqlCommand();
                 //Assign the query using CommandText
-                cmd.CommandText = query;
+                cmd.CommandText = "UPDATE appartmentunits SET unitNum="+unitNum+", fName="+fName+", lName="+lName+", beganDate="+beganDate+", deposite="+deposite+", phone="+phone+", rent="+rent+", waterLaundry="+waterLaundry+", last_power="+lastPower+", new_power"+power+" WHERE unitNum="+unitNum;
                 //Assign the connection using Connection
                 cmd.Connection = connection;
 
+                //MySqlCommand cmd = new MySqlCommand(query, connection);
                 //Execute query
                 cmd.ExecuteNonQuery();
 
