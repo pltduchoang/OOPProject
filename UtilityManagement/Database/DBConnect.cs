@@ -81,18 +81,7 @@ namespace UtilityManagement.Database
         {
             string query = "SELECT * FROM appartmentunits";
 
-            //Create a list to store the result
-            //List<string>[] tenantList = new List<string>[6];
-            //tenantList[0] = new List<string>();
-            //tenantList[1] = new List<string>();
-            //tenantList[2] = new List<string>();
-            //tenantList[3] = new List<string>();
-            //tenantList[4] = new List<string>();
-            //tenantList[5] = new List<string>();
-
             var list = new List<AppartmentCreator>();
-
-            //Open connection
             
             
             //Create Command
@@ -130,50 +119,36 @@ namespace UtilityManagement.Database
 
         }
 
-        //Select statement
-        public List<string>[] DataBill()
+        public void Delete()
         {
-            string query = "SELECT * FROM bill";
+            string query = "DELETE FROM tableinfo WHERE name='John Smith'";
 
-            //Create a list to store the result
-            List<string>[] billList = new List<string>[5];
-            billList[0] = new List<string>();
-            billList[1] = new List<string>();
-            billList[2] = new List<string>();
-            billList[3] = new List<string>();
-            billList[4] = new List<string>();
-
+            if (this.OpenConnection() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.ExecuteNonQuery();
+                this.CloseConnection();
+            }
+        }
+        public void Update()
+        {
             //Open connection
             if (this.OpenConnection() == true)
             {
-                //Create Command
-                MySqlCommand cmd = new MySqlCommand(query, connection);
-                //Create a data reader and Execute the command
-                MySqlDataReader dataReader = cmd.ExecuteReader();
+                //create mysql command
+                MySqlCommand cmd = new MySqlCommand();
+                //Assign the query using CommandText
+                cmd.CommandText = query;
+                //Assign the connection using Connection
+                cmd.Connection = connection;
 
-                //Read the data and store them in the list
-                while (dataReader.Read())
-                {
-                    billList[0].Add(dataReader["rent_$"] + "");
-                    billList[1].Add(dataReader["waterLaundry_$"] + "");
-                    billList[2].Add(dataReader["last_power"] + "");
-                    billList[3].Add(dataReader["power_$"] + "");
-                    billList[4].Add(dataReader["unitNum"] + "");
-                }
+                //Execute query
+                cmd.ExecuteNonQuery();
 
-                //close Data Reader
-                dataReader.Close();
-
-                //close Connection
+                //close connection
                 this.CloseConnection();
-
-                //return list to be displayed
-                return billList;
-            }
-            else
-            {
-                return billList;
             }
         }
+
     }
 }
