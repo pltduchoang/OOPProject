@@ -1,22 +1,35 @@
+using UtilityManagement.Database;
+using UtilityManagement.ThisException;
 namespace UtilityManagement.Appartment;
 
 public partial class Appartment108 : ContentPage
 {
-	public Appartment108()
+    AppartmentCreator appGlobal = null;
+    public Appartment108()
     {
         InitializeComponent();
         Database.DBConnect dBConnect = new Database.DBConnect();
         List<AppartmentCreator> tempList = dBConnect.DataTenent();
 
+        int roomNo = 108;
         int index = 0;
-        while (tempList[index].unitNum != 108 && index < tempList.Count())
+
+        while (tempList[index].unitNum != roomNo && index < tempList.Count())
         {
             index++;
         }
-        AppartmentCreator app = tempList[index];
-        this.TenantName.Text = ($"{app.fName} {app.lName}");
-        this.MoveInDate.Text = app.beganDate.ToString();
-        this.PhoneNumber.Text = app.phone.ToString();
-        this.Deposit.Text = app.deposite.ToString();
+        if (tempList[index].unitNum != roomNo)
+        {
+            DisplayAlert("Ooops", "Data not found", "Cancel");
+            throw new DataNotFoundException();
+        }
+        else
+        {
+            this.appGlobal = tempList[index];
+            this.TenantName.Text = ($"{appGlobal.fName} {appGlobal.lName}");
+            this.MoveInDate.Text = appGlobal.beganDate.ToString();
+            this.PhoneNumber.Text = appGlobal.phone.ToString();
+            this.Deposit.Text = appGlobal.deposite.ToString();
+        }
     }
 }

@@ -31,6 +31,7 @@
                 Grid.Column="0"/>
             <Entry 
                 x:Name="TenantName" 
+                FontSize="30"
                 HeightRequest="50" 
                 WidthRequest="300"
                 HorizontalOptions="Start"
@@ -49,6 +50,7 @@
                 Grid.Column="0"/>
             <Entry 
                 x:Name="Rent" 
+                FontSize="30"
                 HeightRequest="50" 
                 WidthRequest="300"
                 HorizontalOptions="Start"
@@ -68,6 +70,7 @@
                 Grid.Column="0"/>
             <Entry 
                 x:Name="WaterLaundry" 
+                FontSize="30"
                 HeightRequest="50" 
                 WidthRequest="300"
                 HorizontalOptions="Start"
@@ -86,6 +89,7 @@
                 Grid.Column="0"/>
             <Entry 
                 x:Name="LastElectricity"
+                FontSize="30"
                 HeightRequest="50" 
                 WidthRequest="200"
                 HorizontalOptions="Start"
@@ -94,7 +98,8 @@
                 Grid.ColumnSpan="1"/>
             <Entry 
                 x:Name="NewElectricity"
-                Placeholder="Enter New Reading"
+                FontSize="30"
+                Placeholder="New Reading"
                 HeightRequest="50" 
                 WidthRequest="200"
                 HorizontalOptions="Start"
@@ -112,7 +117,9 @@
                 Grid.Row="4"
                 Grid.Column="0"/>
             <Entry 
-                x:Name="ElectricityCost" 
+                x:Name="ElectricityCost"
+                Placeholder="To be calculated"
+                FontSize="30"
                 HeightRequest="50" 
                 WidthRequest="300"
                 HorizontalOptions="Start"
@@ -131,6 +138,8 @@
                 Grid.Column="0"/>
             <Entry 
                 x:Name="TotalAmmount" 
+                Placeholder="To be calculated"
+                FontSize="30"
                 HeightRequest="50" 
                 WidthRequest="300"
                 HorizontalOptions="Start"
@@ -141,15 +150,20 @@
             <!--Row 5 Right - Generate message button-->
             <Button 
                 x:Name="GenerateSMS" 
-                Text="Generate SMS"
+                FontSize="20"
+                Text="Calculate And Generate SMS"
                 HeightRequest="50"
                 WidthRequest="300"
                 HorizontalOptions="Center"
                 Grid.Row="5" 
-                Grid.Column="3"/>
+                Grid.Column="3"
+                Clicked="Calculation"/>
 
             <!--SMS Generate Box-->
-            <Entry
+            <Label
+                FontAttributes="Bold"
+                FontSize="17"
+                FontFamily="Courier New"
                 x:Name="SmS"
                 HeightRequest="400" 
                 WidthRequest="500"
