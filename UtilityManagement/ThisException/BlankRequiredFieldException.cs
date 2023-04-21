@@ -8,6 +8,8 @@ namespace UtilityManagement.ThisException
 {
     class BlankRequiredFieldException : Exception
     {
-        public BlankRequiredFieldException() { }
+        public BlankRequiredFieldException() 
+        {
+        }
     }
 }

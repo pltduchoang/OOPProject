@@ -11,7 +11,7 @@ public partial class Utility105 : ContentPage
         Database.DBConnect dBConnect = new Database.DBConnect();
         List<AppartmentCreator> tempList = dBConnect.DataTenent();
 
-        int roomNo = 101;
+        int roomNo = 105;
         int index = 0;
         while (tempList[index].unitNum != roomNo && index < tempList.Count())
         {
