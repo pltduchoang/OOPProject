@@ -88,10 +88,10 @@
 	  <MauiXaml Update="Appartment\Appartment108.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="SettingPage.xaml">
+	  <MauiXaml Update="NewFolder\UpdateAppartment.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="UtilityPage.xaml">
+	  <MauiXaml Update="Setting\UpdateUtility.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Utility\Utility101.xaml">
