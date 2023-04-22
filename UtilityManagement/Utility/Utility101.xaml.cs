@@ -6,6 +6,7 @@ namespace UtilityManagement.Utility;
 
 public partial class Utility101 : ContentPage
 {
+    //declaring object to hold the right database
     AppartmentCreator appGlobal = null;
     public Utility101()
 	{
@@ -13,32 +14,43 @@ public partial class Utility101 : ContentPage
         Database.DBConnect dBConnect = new Database.DBConnect();
         List<AppartmentCreator> tempList = dBConnect.DataTenent();
 
+
+        //finding the right object for the 
         int roomNo = 101;
         int index = 0;
         while (tempList[index].unitNum != roomNo && index < tempList.Count())
         {
             index++;
         }
+
+        //check if the right object is found in the list
         if (tempList[index].unitNum != roomNo)
         {
             DisplayAlert("Ooops","Data not found","Cancel");
             throw new DataNotFoundException();
         }
+
+        //populate field after data is found
         else
         {
             this.appGlobal = tempList[index];
             this.TenantName.Text = ($"{appGlobal.fName} {appGlobal.lName}");
-            this.Rent.Text = appGlobal.rent.ToString();
-            this.WaterLaundry.Text = appGlobal.waterLaundry.ToString();
+            this.Rent.Text = ($"{appGlobal.rent:C2}");
+            this.WaterLaundry.Text = ($"{appGlobal.waterLaundry:C2}");
             this.LastElectricity.Text = appGlobal.power.ToString();
         }     
     }
 
+
+    //method to calculate utility and generate message
     public void Calculation(object sender, EventArgs e)
     {
+
         if (this.NewElectricity.Text == null)
         {
-            throw new BlankRequiredFieldException();
+            DisplayAlert("Blank Input!!", "Oops!! you have not provided the new reading for this month", "Cancel");
+            return;
+            //throw new BlankRequiredFieldException();
         }
         else
         {
@@ -49,20 +61,26 @@ public partial class Utility101 : ContentPage
                 {
                     int usage = input - this.appGlobal.power;
                     double cost = usage * 1.4;
-                    this.ElectricityCost.Text = cost.ToString();
+                    this.ElectricityCost.Text = ($"{cost:C2}");
                     double ammountDue = appGlobal.rent + appGlobal.waterLaundry + cost;
-                    this.TotalAmmount.Text = ammountDue.ToString();
-                    string message = ($"Dear {appGlobal.fName} {appGlobal.lName} residing at Apparment {appGlobal.unitNum}! \nPlease check the below for this month rent details\n{"New Electricity Reading: ",-25}{input}-{appGlobal.power}\n{"Electricity Usage: ",-25}{usage}\n{"Electricity Cost: ",-25}{cost}\n{"Rent: ",-25}{appGlobal.rent}\n{"Fixed Water and Laundry: ",-25}{appGlobal.waterLaundry}\n{"Total Due: ",-25}{ammountDue}");
+                    this.TotalAmmount.Text = ($"{ammountDue:C2}");
+                    string message = ($"Dear {appGlobal.fName} {appGlobal.lName} residing at Apparment {appGlobal.unitNum}! \nPlease check the below for this month rent details\n{"New Electricity Reading: ",-25}{input}-{appGlobal.power}\n{"Electricity Usage: ",-25}{usage}(kWh)\n{"Electricity Cost: ",-25}{cost:C2}\n{"Rent: ",-25}{appGlobal.rent:C2}\n{"Fixed Water and Laundry: ",-25}{appGlobal.waterLaundry:C2}\n{"Total Due: ",-25}{ammountDue:C2}");
                     this.SmS.Text = message;
                 }
                 else
                 {
-                    throw new InvalidInputException();
+                    DisplayAlert("Invalid input!!", "Oops!! new reading can not be lower than previous month's reading", "Cancel");
+                    this.NewElectricity.Text = null;
+                    return;
+                    //throw new InvalidInputException();
                 }
             }
             else
             {
-                throw new InvalidInputException();
+                DisplayAlert("Invalid input!!", "Oops!! you have not provided a valid number for reading", "Cancel");
+                this.NewElectricity.Text = null;
+                return;
+                //throw new InvalidInputException();
             }
         }
  

@@ -29,7 +29,7 @@ public partial class Appartment107 : ContentPage
             this.TenantName.Text = ($"{appGlobal.fName} {appGlobal.lName}");
             this.MoveInDate.Text = appGlobal.beganDate.ToString();
             this.PhoneNumber.Text = appGlobal.phone.ToString();
-            this.Deposit.Text = appGlobal.deposite.ToString();
+            this.Deposit.Text = ($"{appGlobal.deposite:C2}");
         }
     }
 }
