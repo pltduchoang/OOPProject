@@ -20,7 +20,7 @@
             </Grid.ColumnDefinitions>
 
             <Label 
-                Text="Appartment 101"
+                Text="Appartment 106"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="40"
                 VerticalOptions="Center" 

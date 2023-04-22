@@ -42,5 +42,23 @@
     <MauiXaml Update="Utility\Utility102.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Utility\Utility103.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Utility\Utility104.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Utility\Utility105.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Utility\Utility106.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Utility\Utility107.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Utility\Utility108.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
 </Project>
