@@ -11,17 +11,17 @@ namespace UtilityManagement
         public int unitNum;
         public string fName;
         public string lName;
-        public string beganDate;
+        public DateTime beganDate;
         public double deposite;
-        public int phone;
-        public int rent;
-        public int waterLaundry;
+        public string phone;
+        public double rent;
+        public double waterLaundry;
         public int lastPower;
         public int power;
 
-        List<AppartmentCreator> appartmentList = new List<AppartmentCreator>();
+        
 
-        public AppartmentCreator(int unitNum, string fName, string lName, string beganDate, int deposite, int phone, int rent, int waterLaundry, int lastPower, int power)
+        public AppartmentCreator(int unitNum, string fName, string lName, DateTime beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
         {
             this.unitNum = unitNum;
             this.fName = fName;

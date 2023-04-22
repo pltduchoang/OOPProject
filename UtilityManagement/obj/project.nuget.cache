@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7riztYr+P/7o+yH9hMdjbsDTQqOx7agiuDf3x8lfsNi+KpXvLR4xiBHDneu9cWFy17h8Em2BAQ+uT4jQfKKZLw==",
+  "dgSpecHash": "wN54KXYLqD7DAw+Ou8HyjsLLDCC8NIOD1TdRfGVs1S7QQ+Fspv8pqyUx7m8D3Uk65p4WrbTO15LsmZV6lTZEXg==",
   "success": true,
-  "projectFilePath": "C:\\OOPProject\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\CPRG-211_Object-Oriented Programming 2\\project\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\communitytoolkit.maui\\5.1.0\\communitytoolkit.maui.5.1.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\communitytoolkit.maui.core\\5.1.0\\communitytoolkit.maui.core.5.1.0.nupkg.sha512",

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UtilityManagement;
 
 namespace UtilityManagement.Database
 {
@@ -19,6 +20,8 @@ namespace UtilityManagement.Database
         public DBConnect()
         {
             Initialize();
+
+            OpenConnection();
         }
         //Initialize values
         private void Initialize()
@@ -74,98 +77,68 @@ namespace UtilityManagement.Database
             }
         }
         //Select statement
-        public List<string>[] DataTenent()
+        public  List<AppartmentCreator> DataTenent()
         {
-            string query = "SELECT * FROM tenant";
+            string query = "SELECT * FROM appartmentunits";
 
-            //Create a list to store the result
-            List<string>[] tenantList = new List<string>[6];
-            tenantList[0] = new List<string>();
-            tenantList[1] = new List<string>();
-            tenantList[2] = new List<string>();
-            tenantList[3] = new List<string>();
-            tenantList[4] = new List<string>();
-            tenantList[5] = new List<string>();
+            var list = new List<AppartmentCreator>();
+            
+            
+            //Create Command
+            MySqlCommand cmd = new MySqlCommand(query, connection);
+            //Create a data reader and Execute the command
+            MySqlDataReader dataReader = cmd.ExecuteReader();
 
-            //Open connection
-            if (this.OpenConnection() == true)
+            //Read the data and store them in the list
+            while (dataReader.Read())
             {
-                //Create Command
-                MySqlCommand cmd = new MySqlCommand(query, connection);
-                //Create a data reader and Execute the command
-                MySqlDataReader dataReader = cmd.ExecuteReader();
-
-                //Read the data and store them in the list
-                while (dataReader.Read())
-                {
-                    tenantList[0].Add(dataReader["unitNum"] + "");
-                    tenantList[1].Add(dataReader["fName"] + "");
-                    tenantList[2].Add(dataReader["lName"] + "");
-                    tenantList[3].Add(dataReader["beganDate"] + "");
-                    tenantList[4].Add(dataReader["deposit"] + "");
-                    tenantList[5].Add(dataReader["phone"] + "");
-                }
-
-                //close Data Reader
-                dataReader.Close();
-
-                //close Connection
-                this.CloseConnection();
-
-                //return list to be displayed
-                return tenantList;
+                int unitNum = dataReader.GetInt32(0);
+                string fName = dataReader.GetString(1);
+                string lName = dataReader.GetString(2);
+                DateTime beganDate = dataReader.GetDateTime(3);
+                double deposite = dataReader.GetDouble(4);
+                string phone = dataReader.GetString(5);
+                double rent = dataReader.GetDouble(6);
+                double waterLaundry = dataReader.GetDouble(7);
+                int lastPower = dataReader.GetInt32(8);
+                int power = dataReader.GetInt32(9);
+                AppartmentCreator appartmentData = new AppartmentCreator(unitNum, fName, lName, beganDate, deposite, phone, rent, waterLaundry, lastPower, power);
+                //AppartmentCreator ac = new AppartmentCreator();
+                //ac.appartmentList.Add(appartmentData);
+                list.Add(appartmentData);
             }
-            else
-            {
-                return tenantList;
-            }
+
+            //close Data Reader
+            dataReader.Close();
+
+            //close Connection
+            this.CloseConnection();
+
+            //return list to be displayed
+            return list;
 
         }
 
-        //Select statement
-        public List<string>[] DataBill()
+        public void Update(int unitNum, string fName, string lName, DateTime beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
         {
-            string query = "SELECT * FROM bill";
-
-            //Create a list to store the result
-            List<string>[] billList = new List<string>[5];
-            billList[0] = new List<string>();
-            billList[1] = new List<string>();
-            billList[2] = new List<string>();
-            billList[3] = new List<string>();
-            billList[4] = new List<string>();
-
             //Open connection
             if (this.OpenConnection() == true)
             {
-                //Create Command
-                MySqlCommand cmd = new MySqlCommand(query, connection);
-                //Create a data reader and Execute the command
-                MySqlDataReader dataReader = cmd.ExecuteReader();
+                //create mysql command
+                MySqlCommand cmd = new MySqlCommand();
+                //Assign the query using CommandText
+                cmd.CommandText = "UPDATE appartmentunits SET unitNum="+unitNum+", fName="+fName+", lName="+lName+", beganDate="+beganDate+", deposite="+deposite+", phone="+phone+", rent="+rent+", waterLaundry="+waterLaundry+", last_power="+lastPower+", new_power"+power+" WHERE unitNum="+unitNum;
+                //Assign the connection using Connection
+                cmd.Connection = connection;
 
-                //Read the data and store them in the list
-                while (dataReader.Read())
-                {
-                    billList[0].Add(dataReader["rent_$"] + "");
-                    billList[1].Add(dataReader["waterLaundry_$"] + "");
-                    billList[2].Add(dataReader["last_power"] + "");
-                    billList[3].Add(dataReader["power_$"] + "");
-                    billList[4].Add(dataReader["unitNum"] + "");
-                }
+                //MySqlCommand cmd = new MySqlCommand(query, connection);
+                //Execute query
+                cmd.ExecuteNonQuery();
 
-                //close Data Reader
-                dataReader.Close();
-
-                //close Connection
+                //close connection
                 this.CloseConnection();
-
-                //return list to be displayed
-                return billList;
-            }
-            else
-            {
-                return billList;
             }
         }
+
     }
 }

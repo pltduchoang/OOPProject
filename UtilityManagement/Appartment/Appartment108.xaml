@@ -22,7 +22,7 @@
             <Label 
                 Text="Appartment 108"
                 SemanticProperties.HeadingLevel="Level1"
-                FontSize="40"
+                FontSize="50"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                 Grid.Row="0"
@@ -31,76 +31,80 @@
 
 
             <Label 
-                Text="Tenant Name"
-                SemanticProperties.HeadingLevel="Level2"
-                FontSize="18"
-                VerticalOptions="Center" 
-                HorizontalOptions="End" 
-                Grid.Row="1"
-                Grid.Column="1"
-                HorizontalTextAlignment="End"/>
+                    Text="Tenant Name"
+                    SemanticProperties.HeadingLevel="Level2"
+                    FontSize="40"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="End" 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalTextAlignment="End"/>
 
             <Entry 
-                x:Name="TenantName" 
-                Grid.Row="1" 
-                Grid.Column="2" 
-                HeightRequest="50" 
-                WidthRequest="300"
-                HorizontalOptions="Center"/>
+                    x:Name="TenantName" 
+                    FontSize="30"
+                    Grid.Row="1" 
+                    Grid.Column="2" 
+                    HeightRequest="50" 
+                    WidthRequest="300"
+                    HorizontalOptions="Center"/>
 
             <Label 
-                Text="Move-In Date"
-                SemanticProperties.HeadingLevel="Level2"
-                FontSize="18"
-                VerticalOptions="Center" 
-                HorizontalOptions="End" 
-                Grid.Row="2"
-                Grid.Column="1"
-                HorizontalTextAlignment="End"/>
+                    Text="Move-In Date"
+                    SemanticProperties.HeadingLevel="Level2"
+                    FontSize="40"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="End" 
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    HorizontalTextAlignment="End"/>
 
             <Entry 
-                x:Name="MoveInDate" 
-                Grid.Row="2" 
-                Grid.Column="2" 
-                HeightRequest="50" 
-                WidthRequest="300"/>
-
-
-            <Label 
-                Text="Phone Number"
-                SemanticProperties.HeadingLevel="Level2"
-                FontSize="18"
-                VerticalOptions="Center" 
-                HorizontalOptions="End" 
-                Grid.Row="3"
-                Grid.Column="1"
-                HorizontalTextAlignment="End"/>
-
-            <Entry 
-                x:Name="PhoneNumber" 
-                Grid.Row="3" 
-                Grid.Column="2" 
-                HeightRequest="50" 
-                WidthRequest="300"/>
-
+                    x:Name="MoveInDate" 
+                    FontSize="30"
+                    Grid.Row="2" 
+                    Grid.Column="2" 
+                    HeightRequest="50" 
+                    WidthRequest="300"/>
 
 
             <Label 
-                Text="Deposit Ammount"
-                SemanticProperties.HeadingLevel="Level2"
-                FontSize="18"
-                VerticalOptions="Center" 
-                HorizontalOptions="End" 
-                Grid.Row="4"
-                Grid.Column="1"
-                HorizontalTextAlignment="End"/>
+                    Text="Phone Number"
+                    SemanticProperties.HeadingLevel="Level2"
+                    FontSize="40"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="End" 
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    HorizontalTextAlignment="End"/>
 
             <Entry 
-                x:Name="Deposit" 
-                Grid.Row="4" 
-                Grid.Column="2" 
-                HeightRequest="50" 
-                WidthRequest="300"/>
+                    x:Name="PhoneNumber" 
+                    FontSize="30"
+                    Grid.Row="3" 
+                    Grid.Column="2" 
+                    HeightRequest="50" 
+                    WidthRequest="300"/>
+
+
+
+            <Label 
+                    Text="Deposit Ammount"
+                    SemanticProperties.HeadingLevel="Level2"
+                    FontSize="40"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="End" 
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    HorizontalTextAlignment="End"/>
+
+            <Entry 
+                    x:Name="Deposit" 
+                    FontSize="30"
+                    Grid.Row="4" 
+                    Grid.Column="2" 
+                    HeightRequest="50" 
+                    WidthRequest="300"/>
 
         </Grid>
     </ScrollView>

@@ -12,141 +12,141 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = UtilityManagement
-build_property.ProjectDir = C:\OOPProject\OOPProject\UtilityManagement\
+build_property.ProjectDir = C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\
 
-[C:/OOPProject/OOPProject/UtilityManagement/App.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment101.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment101.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment101.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment101.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment101.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment102.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment102.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment102.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment102.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment102.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment103.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment103.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment103.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment103.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment103.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment104.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment104.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment104.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment104.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment104.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment105.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment105.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment105.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment105.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment105.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment106.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment106.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment106.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment106.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment106.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment107.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment107.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment107.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment107.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment107.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Appartment/Appartment108.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Appartment/Appartment108.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Appartment.Appartment108.xaml
 build_metadata.AdditionalFiles.TargetPath = Appartment\Appartment108.xaml
 build_metadata.AdditionalFiles.RelativePath = Appartment\Appartment108.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/AppShell.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/MainPage.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Resources/Styles/Colors.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Resources/Styles/Styles.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/SettingPage.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/SettingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.SettingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SettingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = SettingPage.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/UtilityPage.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/UtilityPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.UtilityPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UtilityPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UtilityPage.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility101.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility101.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility101.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility101.xaml
 build_metadata.AdditionalFiles.RelativePath = Utility\Utility101.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility102.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility102.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility102.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility102.xaml
 build_metadata.AdditionalFiles.RelativePath = Utility\Utility102.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility103.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility103.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility103.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility103.xaml
 build_metadata.AdditionalFiles.RelativePath = Utility\Utility103.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility104.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility104.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility104.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility104.xaml
 build_metadata.AdditionalFiles.RelativePath = Utility\Utility104.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility105.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility105.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility105.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility105.xaml
 build_metadata.AdditionalFiles.RelativePath = Utility\Utility105.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility106.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility106.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility106.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility106.xaml
 build_metadata.AdditionalFiles.RelativePath = Utility\Utility106.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility107.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility107.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility107.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility107.xaml
 build_metadata.AdditionalFiles.RelativePath = Utility\Utility107.xaml
 
-[C:/OOPProject/OOPProject/UtilityManagement/Utility/Utility108.xaml]
+[C:/Users/USER/Desktop/CPRG-211_Object-Oriented Programming 2/project/OOPProject/UtilityManagement/Utility/Utility108.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UtilityManagement.Utility.Utility108.xaml
 build_metadata.AdditionalFiles.TargetPath = Utility\Utility108.xaml
