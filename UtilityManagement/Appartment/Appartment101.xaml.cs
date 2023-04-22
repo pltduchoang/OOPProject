@@ -30,7 +30,7 @@ public partial class Appartment101 : ContentPage
             this.appGlobal = tempList[index];
             this.TenantName.Text = ($"{appGlobal.fName} {appGlobal.lName}");
             this.MoveInDate.Text = appGlobal.beganDate.ToString();
-            this.PhoneNumber.Text = appGlobal.phone.ToString();
+            this.PhoneNumber.Text = ($"{appGlobal.phone.Substring(0,3)}.{appGlobal.phone.Substring(3,3)}.{appGlobal.phone.Substring(6,4)}");
             this.Deposit.Text = ($"{appGlobal.deposite:C2}");
         }
 
