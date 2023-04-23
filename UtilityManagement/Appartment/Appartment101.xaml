@@ -20,6 +20,11 @@
                     <ColumnDefinition Width="4*"/>
                 </Grid.ColumnDefinitions>
 
+                <VerticalStackLayout>
+                    <Image Source="appartment_one.webp"
+                           Margin="10,170"/>
+                </VerticalStackLayout>
+
                 <Label 
                     Text="Appartment 101"
                     SemanticProperties.HeadingLevel="Level1"

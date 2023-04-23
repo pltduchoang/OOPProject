@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-22T10:54:46.588</Modified>
+      <Modified>2023-04-23T03:55:02.833</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-22T10:54:45.545</Modified>
+      <Modified>2023-04-23T03:55:02.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UtilityManagement.runtimeconfig.json">
       <PackagePath>UtilityManagement.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UtilityManagement.dll">
       <PackagePath>UtilityManagement.dll</PackagePath>
-      <Modified>2023-04-22T10:54:42.746</Modified>
+      <Modified>2023-04-23T03:55:01.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UtilityManagement.exe</PackagePath>
-      <Modified>2023-04-22T10:54:42.994</Modified>
+      <Modified>2023-04-23T03:55:01.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.2\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -932,7 +932,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\UtilityManagement.deps.json">
       <PackagePath>UtilityManagement.deps.json</PackagePath>
-      <Modified>2023-04-22T10:54:46.474</Modified>
+      <Modified>2023-04-23T03:55:02.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.52\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -990,9 +990,33 @@
       <PackagePath>appartment.scale-100.webp</PackagePath>
       <Modified>2023-04-18T17:53:24.590</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_eight.scale-100.jpg">
+      <PackagePath>appartment_eight.scale-100.jpg</PackagePath>
+      <Modified>2023-04-23T03:54:05.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_five.scale-100.jpg">
+      <PackagePath>appartment_five.scale-100.jpg</PackagePath>
+      <Modified>2023-04-23T03:47:47.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_four.scale-100.jpg">
+      <PackagePath>appartment_four.scale-100.jpg</PackagePath>
+      <Modified>2023-04-23T03:42:13.596</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_one.scale-100.webp">
       <PackagePath>appartment_one.scale-100.webp</PackagePath>
       <Modified>2023-04-18T10:35:32.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_seven.scale-100.png">
+      <PackagePath>appartment_seven.scale-100.png</PackagePath>
+      <Modified>2023-04-23T03:51:44.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_six.scale-100.jpg">
+      <PackagePath>appartment_six.scale-100.jpg</PackagePath>
+      <Modified>2023-04-23T03:49:29.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_three.scale-100.jpg">
+      <PackagePath>appartment_three.scale-100.jpg</PackagePath>
+      <Modified>2023-04-23T03:45:15.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_two.scale-100.webp">
       <PackagePath>appartment_two.scale-100.webp</PackagePath>
@@ -1000,207 +1024,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-04-18T18:14:40.861</Modified>
+      <Modified>2023-04-23T03:55:00.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.063</Modified>
+      <Modified>2023-04-23T03:55:01.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.072</Modified>
+      <Modified>2023-04-23T03:55:01.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.080</Modified>
+      <Modified>2023-04-23T03:55:01.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.090</Modified>
+      <Modified>2023-04-23T03:55:01.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.131</Modified>
+      <Modified>2023-04-23T03:55:01.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.926</Modified>
+      <Modified>2023-04-23T03:55:00.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.929</Modified>
+      <Modified>2023-04-23T03:55:00.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.940</Modified>
+      <Modified>2023-04-23T03:55:00.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.931</Modified>
+      <Modified>2023-04-23T03:55:00.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.934</Modified>
+      <Modified>2023-04-23T03:55:00.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.910</Modified>
+      <Modified>2023-04-23T03:55:00.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.912</Modified>
+      <Modified>2023-04-23T03:55:00.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.923</Modified>
+      <Modified>2023-04-23T03:55:00.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.914</Modified>
+      <Modified>2023-04-23T03:55:00.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.916</Modified>
+      <Modified>2023-04-23T03:55:00.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.875</Modified>
+      <Modified>2023-04-23T03:55:00.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.877</Modified>
+      <Modified>2023-04-23T03:55:00.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.880</Modified>
+      <Modified>2023-04-23T03:55:00.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.883</Modified>
+      <Modified>2023-04-23T03:55:00.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.888</Modified>
+      <Modified>2023-04-23T03:55:00.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.892</Modified>
+      <Modified>2023-04-23T03:55:00.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.895</Modified>
+      <Modified>2023-04-23T03:55:00.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.907</Modified>
+      <Modified>2023-04-23T03:55:00.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.898</Modified>
+      <Modified>2023-04-23T03:55:00.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.901</Modified>
+      <Modified>2023-04-23T03:55:00.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.982</Modified>
+      <Modified>2023-04-23T03:55:01.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.987</Modified>
+      <Modified>2023-04-23T03:55:01.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.991</Modified>
+      <Modified>2023-04-23T03:55:01.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.998</Modified>
+      <Modified>2023-04-23T03:55:01.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.008</Modified>
+      <Modified>2023-04-23T03:55:01.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.958</Modified>
+      <Modified>2023-04-23T03:55:01.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.961</Modified>
+      <Modified>2023-04-23T03:55:01.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.964</Modified>
+      <Modified>2023-04-23T03:55:01.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.968</Modified>
+      <Modified>2023-04-23T03:55:01.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.977</Modified>
+      <Modified>2023-04-23T03:55:01.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.942</Modified>
+      <Modified>2023-04-23T03:55:00.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.945</Modified>
+      <Modified>2023-04-23T03:55:00.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.947</Modified>
+      <Modified>2023-04-23T03:55:00.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.950</Modified>
+      <Modified>2023-04-23T03:55:01.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.955</Modified>
+      <Modified>2023-04-23T03:55:01.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.012</Modified>
+      <Modified>2023-04-23T03:55:01.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.017</Modified>
+      <Modified>2023-04-23T03:55:01.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.028</Modified>
+      <Modified>2023-04-23T03:55:01.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.037</Modified>
+      <Modified>2023-04-23T03:55:01.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-04-18T18:14:41.057</Modified>
+      <Modified>2023-04-23T03:55:01.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.848</Modified>
+      <Modified>2023-04-23T03:55:00.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.856</Modified>
+      <Modified>2023-04-23T03:55:00.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.871</Modified>
+      <Modified>2023-04-23T03:55:00.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.889</Modified>
+      <Modified>2023-04-23T03:55:00.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-04-18T18:14:40.926</Modified>
+      <Modified>2023-04-23T03:55:01.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\setting.scale-100.png">
       <PackagePath>setting.scale-100.png</PackagePath>

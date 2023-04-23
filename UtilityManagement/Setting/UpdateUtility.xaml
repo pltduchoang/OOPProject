@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UtilityManagement.Setting.UpdateUtility"
-             Title="Setting: UpdateUtility">
+             Title="Setting: Update Utility">
 
     <ScrollView>
         <Grid Padding="30, 0">

@@ -1666,3 +1666,9 @@ C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\
 C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_four.scale-100.jpg
+C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_three.scale-100.jpg
+C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_eight.scale-100.jpg
+C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_five.scale-100.jpg
+C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_seven.scale-100.png
+C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_six.scale-100.jpg

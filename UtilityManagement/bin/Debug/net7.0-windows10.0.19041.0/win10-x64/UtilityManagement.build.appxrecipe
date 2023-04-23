@@ -742,8 +742,26 @@
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment.scale-100.webp">
       <PackagePath>appartment.scale-100.webp</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_eight.scale-100.jpg">
+      <PackagePath>appartment_eight.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_five.scale-100.jpg">
+      <PackagePath>appartment_five.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_four.scale-100.jpg">
+      <PackagePath>appartment_four.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_one.scale-100.webp">
       <PackagePath>appartment_one.scale-100.webp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_seven.scale-100.png">
+      <PackagePath>appartment_seven.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_six.scale-100.jpg">
+      <PackagePath>appartment_six.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_three.scale-100.jpg">
+      <PackagePath>appartment_three.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appartment_two.scale-100.webp">
       <PackagePath>appartment_two.scale-100.webp</PackagePath>

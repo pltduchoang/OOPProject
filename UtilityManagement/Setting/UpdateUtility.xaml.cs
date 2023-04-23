@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using UtilityManagement.Database;
 namespace UtilityManagement.Setting;
 
@@ -26,6 +27,12 @@ public partial class UpdateUtility : ContentPage
 
     public void Update(object sender, EventArgs e)
     {
+        DBConnect dBConnect = new DBConnect();
+        int unitNum = int.Parse(this.Picker.SelectedItem.ToString().Substring(11));
+        double rent = double.Parse(this.Rent.Text, NumberStyles.Currency);
+        double waterLaundry = double.Parse(this.WaterLaundry.Text, NumberStyles.Currency);
 
+        dBConnect.UpdateUtility(unitNum, rent, waterLaundry);
+        DisplayAlert("Confirmation", "Updated Successfully!", "OK");
     }
 }
