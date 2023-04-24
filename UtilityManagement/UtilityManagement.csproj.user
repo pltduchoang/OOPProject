@@ -30,10 +30,7 @@
     <MauiXaml Update="Appartment\Appartment108.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="SettingPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="UtilityPage.xaml">
+    <MauiXaml Update="Setting\UpdateUtility.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Utility\Utility101.xaml">

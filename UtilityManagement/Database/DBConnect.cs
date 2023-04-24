@@ -77,13 +77,13 @@ namespace UtilityManagement.Database
             }
         }
         //Select statement
-        public  List<AppartmentCreator> DataTenent()
+        public List<AppartmentCreator> DataTenent()
         {
             string query = "SELECT * FROM appartmentunits";
 
             var list = new List<AppartmentCreator>();
-            
-            
+
+
             //Create Command
             MySqlCommand cmd = new MySqlCommand(query, connection);
             //Create a data reader and Execute the command
@@ -95,7 +95,7 @@ namespace UtilityManagement.Database
                 int unitNum = dataReader.GetInt32(0);
                 string fName = dataReader.GetString(1);
                 string lName = dataReader.GetString(2);
-                DateTime beganDate = dataReader.GetDateTime(3);
+                DateOnly beganDate = dataReader.GetDateOnly(3);
                 double deposite = dataReader.GetDouble(4);
                 string phone = dataReader.GetString(5);
                 double rent = dataReader.GetDouble(6);
@@ -119,26 +119,60 @@ namespace UtilityManagement.Database
 
         }
 
-        public void Update(int unitNum, string fName, string lName, DateTime beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
+        //public void Update(int unitNum, string fName, string lName, DateTime beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
+        //{
+        //    //Open connection
+        //    if (this.OpenConnection() == true)
+        //    {
+        //        //create mysql command
+        //        MySqlCommand cmd = new MySqlCommand();
+        //        //Assign the query using CommandText
+        //        cmd.CommandText = "UPDATE appartmentunits SET unitNum=" + unitNum + ", fName=" + fName + ", lName=" + lName + ", beganDate=" + beganDate + ", deposite=" + deposite + ", phone=" + phone + ", rent=" + rent + ", waterLaundry=" + waterLaundry + ", last_power=" + lastPower + ", new_power" + power + " WHERE unitNum=" + unitNum;
+        //        //Assign the connection using Connection
+        //        cmd.Connection = connection;
+
+        //        //MySqlCommand cmd = new MySqlCommand(query, connection);
+        //        //Execute query
+        //        cmd.ExecuteNonQuery();
+
+        //        //close connection
+        //        this.CloseConnection();
+        //    }
+        //}
+
+        public void UpdateAppartment(int unitNum, string fName, string lName, DateOnly beganDate, double deposite)
         {
-            //Open connection
-            if (this.OpenConnection() == true)
-            {
-                //create mysql command
-                MySqlCommand cmd = new MySqlCommand();
-                //Assign the query using CommandText
-                cmd.CommandText = "UPDATE appartmentunits SET unitNum="+unitNum+", fName="+fName+", lName="+lName+", beganDate="+beganDate+", deposite="+deposite+", phone="+phone+", rent="+rent+", waterLaundry="+waterLaundry+", last_power="+lastPower+", new_power"+power+" WHERE unitNum="+unitNum;
-                //Assign the connection using Connection
-                cmd.Connection = connection;
+            
+            //create mysql command
+            MySqlCommand cmd = new MySqlCommand();
+            //Assign the query using CommandText
+            cmd.CommandText = "UPDATE appartmentunits SET fName='" + fName + "', lName='" + lName + "', beganDate='" + beganDate + "', deposit='" + deposite + "' WHERE unitNum='" + unitNum + "'";
+            //Assign the connection using Connection
+            cmd.Connection = connection;
 
-                //MySqlCommand cmd = new MySqlCommand(query, connection);
-                //Execute query
-                cmd.ExecuteNonQuery();
+            //MySqlCommand cmd = new MySqlCommand(query, connection);
+            //Execute query
+            cmd.ExecuteNonQuery();
 
-                //close connection
-                this.CloseConnection();
-            }
+            //close connection
+            this.CloseConnection();
+
         }
+        public void UpdateUtility(int unitNum, double rent, double waterLaundry)
+        {
+            //create mysql command
+            MySqlCommand cmd = new MySqlCommand();
+            //Assign the query using CommandText
+            cmd.CommandText = "UPDATE appartmentunits SET rent='" + rent + "', waterLaundry='" + waterLaundry + "' WHERE unitNum='" + unitNum + "'";
+            //Assign the connection using Connection
+            cmd.Connection = connection;
 
+            //MySqlCommand cmd = new MySqlCommand(query, connection);
+            //Execute query
+            cmd.ExecuteNonQuery();
+
+            //close connection
+            this.CloseConnection();
+        }
     }
 }

@@ -19,6 +19,17 @@
                 <ColumnDefinition Width="4*"/>
             </Grid.ColumnDefinitions>
 
+            <VerticalStackLayout>
+                <Image Source="appartment_six.jpg"
+                       Margin="10,170"/>
+            </VerticalStackLayout>
+            <Image Source="tenant6.webp"
+                           Grid.Row="1"
+                           Grid.Column="3"
+                           WidthRequest="200"
+                           HeightRequest="200"
+                           HorizontalOptions="End"/>
+
             <Label 
                 Text="Appartment 106"
                 SemanticProperties.HeadingLevel="Level1"
@@ -40,7 +51,7 @@
                     Grid.Column="1"
                     HorizontalTextAlignment="End"/>
 
-            <Entry 
+            <Label 
                     x:Name="TenantName" 
                     FontSize="30"
                     Grid.Row="1" 
@@ -59,7 +70,7 @@
                     Grid.Column="1"
                     HorizontalTextAlignment="End"/>
 
-            <Entry 
+            <Label 
                     x:Name="MoveInDate" 
                     FontSize="30"
                     Grid.Row="2" 
@@ -78,7 +89,7 @@
                     Grid.Column="1"
                     HorizontalTextAlignment="End"/>
 
-            <Entry 
+            <Label 
                     x:Name="PhoneNumber" 
                     FontSize="30"
                     Grid.Row="3" 
@@ -98,7 +109,7 @@
                     Grid.Column="1"
                     HorizontalTextAlignment="End"/>
 
-            <Entry 
+            <Label 
                     x:Name="Deposit" 
                     FontSize="30"
                     Grid.Row="4" 
