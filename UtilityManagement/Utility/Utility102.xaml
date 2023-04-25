@@ -29,12 +29,12 @@
                 HorizontalOptions="End" 
                 Grid.Row="0"
                 Grid.Column="0"/>
-            <Entry 
+            <Label 
                 x:Name="TenantName" 
-                FontSize="30"
+                FontSize="40"
                 HeightRequest="50" 
                 WidthRequest="300"
-                HorizontalOptions="Start"
+                HorizontalOptions="End"
                 Grid.Row="0" 
                 Grid.Column="1" 
                 Grid.ColumnSpan="2"/>
@@ -48,12 +48,12 @@
                 HorizontalOptions="End" 
                 Grid.Row="1"
                 Grid.Column="0"/>
-            <Entry 
+            <Label
                 x:Name="Rent" 
-                FontSize="30"
+                FontSize="40"
                 HeightRequest="50" 
                 WidthRequest="300"
-                HorizontalOptions="Start"
+                HorizontalOptions="End"
                 Grid.Row="1" 
                 Grid.Column="1"
                 Grid.ColumnSpan="2"/>
@@ -68,12 +68,12 @@
                 HorizontalOptions="End" 
                 Grid.Row="2"
                 Grid.Column="0"/>
-            <Entry 
+            <Label 
                 x:Name="WaterLaundry" 
-                FontSize="30"
+                FontSize="40"
                 HeightRequest="50" 
                 WidthRequest="300"
-                HorizontalOptions="Start"
+                HorizontalOptions="End"
                 Grid.Row="2" 
                 Grid.Column="1"
                 Grid.ColumnSpan="2"/>
@@ -87,22 +87,22 @@
                 HorizontalOptions="End" 
                 Grid.Row="3"
                 Grid.Column="0"/>
-            <Entry 
+            <Label
                 x:Name="LastElectricity"
-                FontSize="30"
+                FontSize="40"
                 HeightRequest="50" 
                 WidthRequest="200"
-                HorizontalOptions="Start"
+                HorizontalOptions="End"
                 Grid.Row="3" 
                 Grid.Column="1"
                 Grid.ColumnSpan="1"/>
             <Entry 
                 x:Name="NewElectricity"
-                FontSize="30"
+                FontSize="40"
                 Placeholder="New Reading"
                 HeightRequest="50" 
                 WidthRequest="200"
-                HorizontalOptions="Start"
+                HorizontalOptions="End"
                 Grid.Row="3" 
                 Grid.Column="2"
                 Grid.ColumnSpan="1"/>
@@ -116,13 +116,12 @@
                 HorizontalOptions="End" 
                 Grid.Row="4"
                 Grid.Column="0"/>
-            <Entry 
+            <Label
                 x:Name="ElectricityCost"
-                Placeholder="To be calculated"
-                FontSize="30"
+                FontSize="40"
                 HeightRequest="50" 
                 WidthRequest="300"
-                HorizontalOptions="Start"
+                HorizontalOptions="End"
                 Grid.Row="4" 
                 Grid.Column="1"
                 Grid.ColumnSpan="2"/>
@@ -136,13 +135,12 @@
                 HorizontalOptions="End" 
                 Grid.Row="5"
                 Grid.Column="0"/>
-            <Entry 
+            <Label
                 x:Name="TotalAmmount" 
-                Placeholder="To be calculated"
-                FontSize="30"
+                FontSize="40"
                 HeightRequest="50" 
                 WidthRequest="300"
-                HorizontalOptions="Start"
+                HorizontalOptions="End"
                 Grid.Row="5" 
                 Grid.Column="1"
                 Grid.ColumnSpan="2"/>
@@ -157,8 +155,7 @@
                 HorizontalOptions="Center"
                 Grid.Row="5" 
                 Grid.Column="3"
-                Clicked="Calculation"
-                />
+                Clicked="Calculation"/>
 
             <!--SMS Generate Box-->
             <Label

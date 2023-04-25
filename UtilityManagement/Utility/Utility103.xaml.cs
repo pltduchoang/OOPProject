@@ -1,4 +1,4 @@
-using UtilityManagement.ThisException;
+
 
 namespace UtilityManagement.Utility;
 
@@ -24,7 +24,6 @@ public partial class Utility103 : ContentPage
         if (tempList[index].unitNum != roomNo)
         {
             DisplayAlert("Ooops", "Data not found", "Cancel");
-            throw new DataNotFoundException();
         }
 
         //populate field after data is found
@@ -63,6 +62,7 @@ public partial class Utility103 : ContentPage
                     this.TotalAmmount.Text = ($"{ammountDue:C2}");
                     string message = ($"Dear {appGlobal.fName} {appGlobal.lName} residing at Apparment {appGlobal.unitNum}! \nPlease check the below for this month rent details\n{"New Electricity Reading: ",-25}{input}-{appGlobal.power}\n{"Electricity Usage: ",-25}{usage}(kWh)\n{"Electricity Cost: ",-25}{cost:C2}\n{"Rent: ",-25}{appGlobal.rent:C2}\n{"Fixed Water and Laundry: ",-25}{appGlobal.waterLaundry:C2}\n{"Total Due: ",-25}{ammountDue:C2}");
                     this.SmS.Text = message;
+                    NewReading newReading = new NewReading(appGlobal.unitNum, input);
                 }
                 else
                 {

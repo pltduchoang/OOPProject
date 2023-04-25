@@ -1,5 +1,4 @@
 using UtilityManagement.Database;
-using UtilityManagement.ThisException;
 
 namespace UtilityManagement.Appartment;
 
@@ -22,7 +21,6 @@ public partial class Appartment103 : ContentPage
         if (tempList[index].unitNum != roomNo)
         {
             DisplayAlert("Ooops", "Data not found", "Cancel");
-            throw new DataNotFoundException();
         }
         else
         {

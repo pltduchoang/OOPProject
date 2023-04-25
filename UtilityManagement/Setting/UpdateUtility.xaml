@@ -11,6 +11,7 @@
                 <RowDefinition Height="120"/>
                 <RowDefinition Height="120"/>
                 <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="4*"/>
@@ -80,12 +81,30 @@
                     Grid.Column="1"
                     Grid.ColumnSpan="2"/>
 
+            <Label 
+                    Text="New Electricity Reading"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="28"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="End" 
+                    Grid.Row="3"
+                    Grid.Column="0"/>
+            <Entry 
+                    x:Name="NewElectric" 
+                    FontSize="28"
+                    HeightRequest="50" 
+                    WidthRequest="300"
+                    HorizontalOptions="Start"
+                    Grid.Row="3" 
+                    Grid.Column="1"
+                    Grid.ColumnSpan="2"/>
+
             <Button x:Name="UpdateButton"
                     Text="Update"
                     HeightRequest="50" 
                     WidthRequest="100"
                     HorizontalOptions="Start"
-                    Grid.Row="3" 
+                    Grid.Row="4" 
                     Grid.Column="1"
                     Clicked="Update"/>
         </Grid>
