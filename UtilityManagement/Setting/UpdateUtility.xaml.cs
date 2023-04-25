@@ -1,11 +1,12 @@
 using System;
 using System.Globalization;
 using UtilityManagement.Database;
+using UtilityManagement.Utility;
+
 namespace UtilityManagement.Setting;
 
 public partial class UpdateUtility : ContentPage
 {
-    int powerReading;
 	public UpdateUtility()
 	{
 		InitializeComponent();
@@ -15,17 +16,7 @@ public partial class UpdateUtility : ContentPage
 
         this.Rent.Text = ($"{tempList[this.Picker.SelectedIndex].rent:C2}");
         this.WaterLaundry.Text = ($"{tempList[this.Picker.SelectedIndex].waterLaundry:C2}");
-        this.powerReading = tempList[this.Picker.SelectedIndex].power;
-        this.NewElectric.Text = null;
-        foreach (NewReading item in NewReading.newReadingList)
-        {
-            if (tempList[this.Picker.SelectedIndex].unitNum == item.unitNum)
-            {
-                this.NewElectric.Text = item.tempReading.ToString();
-                break;
-            }
-        }
-        
+        this.NewElectric.Text = tempList[this.Picker.SelectedIndex].power.ToString();
     }
 
     public void Go(object sender, EventArgs e)
@@ -35,7 +26,7 @@ public partial class UpdateUtility : ContentPage
 
         this.Rent.Text = ($"{tempList[this.Picker.SelectedIndex].rent:C2}");
         this.WaterLaundry.Text = ($"{tempList[this.Picker.SelectedIndex].waterLaundry:C2}");
-        this.NewElectric.Text = null;
+        this.NewElectric.Text = tempList[this.Picker.SelectedIndex].power.ToString();
         foreach (NewReading item in NewReading.newReadingList)
         {
             if (tempList[this.Picker.SelectedIndex].unitNum == item.unitNum)
@@ -52,16 +43,9 @@ public partial class UpdateUtility : ContentPage
         int unitNum = int.Parse(this.Picker.SelectedItem.ToString().Substring(11));
         double rent = double.Parse(this.Rent.Text, NumberStyles.Currency);
         double waterLaundry = double.Parse(this.WaterLaundry.Text, NumberStyles.Currency);
-        //int oldReading;
-        //int newReading;
-        //if (this.NewElectric.Text != null)
-        //{
-        //    oldReading = powerReading;
-        //    newReading = int.Parse(this.NewElectric.Text);
+        int power = int.Parse(this.NewElectric.Text);
 
-        //}
-
-        dBConnect.UpdateUtility(unitNum, rent, waterLaundry);
+        dBConnect.UpdateUtility(unitNum, rent, waterLaundry, power);
         DisplayAlert("Confirmation", "Updated Successfully!", "OK");
     }
 }

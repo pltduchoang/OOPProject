@@ -119,27 +119,6 @@ namespace UtilityManagement.Database
 
         }
 
-        //public void Update(int unitNum, string fName, string lName, DateTime beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
-        //{
-        //    //Open connection
-        //    if (this.OpenConnection() == true)
-        //    {
-        //        //create mysql command
-        //        MySqlCommand cmd = new MySqlCommand();
-        //        //Assign the query using CommandText
-        //        cmd.CommandText = "UPDATE appartmentunits SET unitNum=" + unitNum + ", fName=" + fName + ", lName=" + lName + ", beganDate=" + beganDate + ", deposite=" + deposite + ", phone=" + phone + ", rent=" + rent + ", waterLaundry=" + waterLaundry + ", last_power=" + lastPower + ", new_power" + power + " WHERE unitNum=" + unitNum;
-        //        //Assign the connection using Connection
-        //        cmd.Connection = connection;
-
-        //        //MySqlCommand cmd = new MySqlCommand(query, connection);
-        //        //Execute query
-        //        cmd.ExecuteNonQuery();
-
-        //        //close connection
-        //        this.CloseConnection();
-        //    }
-        //}
-
         public void UpdateAppartment(int unitNum, string fName, string lName, DateOnly beganDate, double deposite)
         {
             
@@ -158,12 +137,13 @@ namespace UtilityManagement.Database
             this.CloseConnection();
 
         }
-        public void UpdateUtility(int unitNum, double rent, double waterLaundry)
+        public void UpdateUtility(int unitNum, double rent, double waterLaundry, int power)
         {
             //create mysql command
             MySqlCommand cmd = new MySqlCommand();
             //Assign the query using CommandText
-            cmd.CommandText = "UPDATE appartmentunits SET rent='" + rent + "', waterLaundry='" + waterLaundry + "' WHERE unitNum='" + unitNum + "'";
+            cmd.CommandText = "UPDATE appartmentunits SET rent='" + rent + "', waterLaundry='" + waterLaundry + "', last_power=new_power" + ", new_power='" + power + "' WHERE unitNum='" + unitNum + "'";
+            
             //Assign the connection using Connection
             cmd.Connection = connection;
 
