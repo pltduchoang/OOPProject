@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace UtilityManagement
 {
+    /// <summary>
+    /// Static object to transfer Electricity input to the setting page / update utility
+    /// </summary>
     
     internal class NewReading
     {

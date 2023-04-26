@@ -8,6 +8,7 @@ public partial class UpdateAppartment : ContentPage
     {
         InitializeComponent();
 
+        //Connect to database and populate entry fields
         DBConnect dBConnect = new DBConnect();
         List<AppartmentCreator> tempList = dBConnect.DataTenent();
         int index = this.Picker.SelectedIndex;
@@ -18,6 +19,7 @@ public partial class UpdateAppartment : ContentPage
         this.Deposit.Text = ($"{tempList[index].deposite:C2}");
     }
 
+    //Initiate data populating when choosing new appartment page
     public void Go(object sender, EventArgs e)
     {
         DBConnect dBConnect = new DBConnect();
@@ -30,6 +32,7 @@ public partial class UpdateAppartment : ContentPage
         this.Deposit.Text = ($"{tempList[index].deposite:C2}");
     }
 
+    //Update new input into the database
     public void Update(object sender, EventArgs e)
     {
         DBConnect dBConnect = new DBConnect();

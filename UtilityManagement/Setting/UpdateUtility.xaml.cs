@@ -16,7 +16,7 @@ public partial class UpdateUtility : ContentPage
 
         this.Rent.Text = ($"{tempList[this.Picker.SelectedIndex].rent:C2}");
         this.WaterLaundry.Text = ($"{tempList[this.Picker.SelectedIndex].waterLaundry:C2}");
-        this.NewElectric.Text = tempList[this.Picker.SelectedIndex].power.ToString();
+        this.NewElectric.Text = tempList[this.Picker.SelectedIndex].newPower.ToString();
     }
 
     public void Go(object sender, EventArgs e)
@@ -26,7 +26,7 @@ public partial class UpdateUtility : ContentPage
 
         this.Rent.Text = ($"{tempList[this.Picker.SelectedIndex].rent:C2}");
         this.WaterLaundry.Text = ($"{tempList[this.Picker.SelectedIndex].waterLaundry:C2}");
-        this.NewElectric.Text = tempList[this.Picker.SelectedIndex].power.ToString();
+        this.NewElectric.Text = tempList[this.Picker.SelectedIndex].newPower.ToString();
         foreach (NewReading item in NewReading.newReadingList)
         {
             if (tempList[this.Picker.SelectedIndex].unitNum == item.unitNum)

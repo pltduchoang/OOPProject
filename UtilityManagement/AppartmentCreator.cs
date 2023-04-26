@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace UtilityManagement
 {
+    /// <summary>
+    /// Convert database into object Apartment
+    /// </summary>
     class AppartmentCreator
     {
         public int unitNum;

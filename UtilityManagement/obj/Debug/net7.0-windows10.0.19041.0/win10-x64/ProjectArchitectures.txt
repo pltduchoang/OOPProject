@@ -1,1 +1,1 @@
-C:\Users\USER\Desktop\CPRG-211_Object-Oriented Programming 2\project\OOPProject\UtilityManagement\UtilityManagement.csproj;x64
+C:\OOPProject\OOPProject\UtilityManagement\UtilityManagement.csproj;x64
