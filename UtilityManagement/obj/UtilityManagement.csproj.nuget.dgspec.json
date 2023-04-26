@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\OOPProject\\OOPProject\\UtilityManagement\\UtilityManagement.csproj": {}
+    "C:\\Users\\USER\\Desktop\\CPRG-211_Object-Oriented Programming 2\\project\\OOPProject\\UtilityManagement\\UtilityManagement.csproj": {}
   },
   "projects": {
-    "C:\\OOPProject\\OOPProject\\UtilityManagement\\UtilityManagement.csproj": {
+    "C:\\Users\\USER\\Desktop\\CPRG-211_Object-Oriented Programming 2\\project\\OOPProject\\UtilityManagement\\UtilityManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OOPProject\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\CPRG-211_Object-Oriented Programming 2\\project\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
         "projectName": "UtilityManagement",
-        "projectPath": "C:\\OOPProject\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
-        "packagesPath": "C:\\Users\\pltdu\\.nuget\\packages\\",
-        "outputPath": "C:\\OOPProject\\OOPProject\\UtilityManagement\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\CPRG-211_Object-Oriented Programming 2\\project\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\CPRG-211_Object-Oriented Programming 2\\project\\OOPProject\\UtilityManagement\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pltdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,7 +91,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.52, )",
               "autoReferenced": true
             },
             "MySqlConnector": {
@@ -182,7 +182,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -217,7 +217,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.52, )",
               "autoReferenced": true
             },
             "MySqlConnector": {
@@ -253,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -288,7 +288,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.52, )",
               "autoReferenced": true
             },
             "MySqlConnector": {
@@ -325,7 +325,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -360,12 +360,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.52, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
               "target": "Package",
-              "version": "[7.0.81, )",
+              "version": "[7.0.52, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {
@@ -376,7 +376,7 @@
             },
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
-              "version": "[1.2.221209.1, )",
+              "version": "[1.2.221109.1, )",
               "autoReferenced": true
             },
             "MySqlConnector": {
@@ -398,11 +398,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.5, 7.0.5]"
+              "version": "[7.0.2, 7.0.2]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.5, 7.0.5]"
+              "version": "[7.0.2, 7.0.2]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -410,7 +410,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.5, 7.0.5]"
+              "version": "[7.0.2, 7.0.2]"
             }
           ],
           "frameworkReferences": {
@@ -430,7 +430,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
