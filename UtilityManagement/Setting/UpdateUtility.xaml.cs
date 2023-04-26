@@ -15,7 +15,7 @@ public partial class UpdateUtility : ContentPage
 
         this.Rent.Text = ($"{tempList[this.Picker.SelectedIndex].rent:C2}");
         this.WaterLaundry.Text = ($"{tempList[this.Picker.SelectedIndex].waterLaundry:C2}");
-        this.powerReading = tempList[this.Picker.SelectedIndex].power;
+        this.powerReading = tempList[this.Picker.SelectedIndex].newPower;
         this.NewElectric.Text = null;
         foreach (NewReading item in NewReading.newReadingList)
         {

@@ -17,11 +17,11 @@ namespace UtilityManagement
         public double rent;
         public double waterLaundry;
         public int lastPower;
-        public int power;
+        public int newPower;
 
         
 
-        public AppartmentCreator(int unitNum, string fName, string lName, DateOnly beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int power)
+        public AppartmentCreator(int unitNum, string fName, string lName, DateOnly beganDate, double deposite, string phone, double rent, double waterLaundry, int lastPower, int newPower)
         {
             this.unitNum = unitNum;
             this.fName = fName;
@@ -32,7 +32,7 @@ namespace UtilityManagement
             this.rent = rent;
             this.waterLaundry = waterLaundry;
             this.lastPower = lastPower;
-            this.power = power;
+            this.newPower = newPower;
         }
     }
 }

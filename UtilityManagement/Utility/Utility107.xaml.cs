@@ -33,7 +33,7 @@ public partial class Utility107 : ContentPage
             this.TenantName.Text = ($"{appGlobal.fName} {appGlobal.lName}");
             this.Rent.Text = ($"{appGlobal.rent:C2}");
             this.WaterLaundry.Text = ($"{appGlobal.waterLaundry:C2}");
-            this.LastElectricity.Text = appGlobal.power.ToString();
+            this.LastElectricity.Text = appGlobal.newPower.ToString();
         }
     }
 
@@ -53,14 +53,14 @@ public partial class Utility107 : ContentPage
             int input;
             if (int.TryParse(this.NewElectricity.Text, out input))
             {
-                if (input >= this.appGlobal.power)
+                if (input >= this.appGlobal.newPower)
                 {
-                    int usage = input - this.appGlobal.power;
+                    int usage = input - this.appGlobal.newPower;
                     double cost = usage * 1.4;
                     this.ElectricityCost.Text = ($"{cost:C2}");
                     double ammountDue = appGlobal.rent + appGlobal.waterLaundry + cost;
                     this.TotalAmmount.Text = ($"{ammountDue:C2}");
-                    string message = ($"Dear {appGlobal.fName} {appGlobal.lName} residing at Apparment {appGlobal.unitNum}! \nPlease check the below for this month rent details\n{"New Electricity Reading: ",-25}{input}-{appGlobal.power}\n{"Electricity Usage: ",-25}{usage}(kWh)\n{"Electricity Cost: ",-25}{cost:C2}\n{"Rent: ",-25}{appGlobal.rent:C2}\n{"Fixed Water and Laundry: ",-25}{appGlobal.waterLaundry:C2}\n{"Total Due: ",-25}{ammountDue:C2}");
+                    string message = ($"Dear {appGlobal.fName} {appGlobal.lName} residing at Apparment {appGlobal.unitNum}! \nPlease check the below for this month rent details\n{"New Electricity Reading: ",-25}{input}-{appGlobal.newPower}\n{"Electricity Usage: ",-25}{usage}(kWh)\n{"Electricity Cost: ",-25}{cost:C2}\n{"Rent: ",-25}{appGlobal.rent:C2}\n{"Fixed Water and Laundry: ",-25}{appGlobal.waterLaundry:C2}\n{"Total Due: ",-25}{ammountDue:C2}");
                     this.SmS.Text = message;
                     NewReading newReading = new NewReading(appGlobal.unitNum, input);
                 }
