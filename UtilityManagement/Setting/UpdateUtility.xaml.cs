@@ -19,6 +19,7 @@ public partial class UpdateUtility : ContentPage
         this.NewElectric.Text = tempList[this.Picker.SelectedIndex].newPower.ToString();
     }
 
+    //Initiate populating database after change appartment page
     public void Go(object sender, EventArgs e)
     {
         DBConnect dBConnect = new DBConnect();
@@ -37,6 +38,7 @@ public partial class UpdateUtility : ContentPage
         }
     }
 
+    //Update new input into the database
     public void Update(object sender, EventArgs e)
     {
         DBConnect dBConnect = new DBConnect();

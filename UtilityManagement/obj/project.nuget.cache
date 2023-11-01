@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B+zZLoGxs3FwVqbj8d8NbkQBGKD1uzViatxQf+VZ93ckVAML1N1Sj0703BiRzEJIAHtimm+ib30vMa40nVoIeQ==",
+  "dgSpecHash": "QVRUbsRK983mJBY4+eTHi/UnDCvxnKxKeOejg5l2ZfOGg2NV14Md03Q65a0Wt6asjP/NbczEQPC/twWPnMp80w==",
   "success": true,
   "projectFilePath": "C:\\OOPProject\\OOPProject\\UtilityManagement\\UtilityManagement.csproj",
   "expectedPackageFiles": [
@@ -17,9 +17,9 @@
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.4\\microsoft.graphics.win2d.1.0.4.nupkg.sha512",
-    "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.maui.graphics\\7.0.81\\microsoft.maui.graphics.7.0.81.nupkg.sha512",
-    "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.81\\microsoft.maui.graphics.win2d.winui.desktop.7.0.81.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
+    "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.maui.graphics\\7.0.86\\microsoft.maui.graphics.7.0.86.nupkg.sha512",
+    "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.86\\microsoft.maui.graphics.win2d.winui.desktop.7.0.86.nupkg.sha512",
+    "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
